@@ -15,7 +15,7 @@ export function Post(){
             </header>
             <div className={style.content}> 
                 <p>Fala galera 👍</p>
-                <p>Acabei de subir uma nova aula pra ver como  fica essa merda de </p>
+                <p>Acabei de subir uma nova aula pra ver como  fica essa AULA  de </p>
                 <p>👉<a href="">James.desing/Document</a></p>
                 <p><a href="">#novoprojeto #nlw #rocketseat</a></p>
             </div> 
