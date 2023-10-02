@@ -6,7 +6,7 @@ export function Post(){
                 <div className={style.author}>
                     <img src='https://avatars.githubusercontent.com/u/17012564?v=4'/>
                     <div className={style.authorInfo}>
-                        <strong>Douglas dos Santos</strong>
+                        <strong>Douglas santos</strong>
                         <span>Web Developer</span>                        
                     </div>
                 </div>
@@ -16,9 +16,25 @@ export function Post(){
             <div className={style.content}> 
                 <p>Fala galera 👍</p>
                 <p>Acabei de subir uma nova aula pra ver como  fica essa AULA  de </p>
-                <p>👉<a href="">James.desing/Document</a></p>
-                <p><a href="">#novoprojeto #nlw #rocketseat</a></p>
+                <p>👉{' '}<a href="">James.desing/Document</a></p>
+                <p>
+                    <a href="">#novoprojeto</a>{' '}  
+                    <a href="">#nlw</a>{' '} 
+                    <a href="">#rocketseat</a></p>
             </div> 
+            <form className={style.commentForm}>
+                <strong>Deixe seu feedback</strong>
+                <textarea
+                    placeholder='Deixe seu Comentario'
+                />
+                <footer>
+                    <button
+                        type='submit'>
+                            Publicar
+                    </button>
+                </footer>
+
+            </form>
         </article>
     );
 }
